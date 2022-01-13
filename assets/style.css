@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+li{
+    list-style-type: none;
+}
+/**/
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.section-header{
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+.main-wrapper{
+    width: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+
+.bg-img{
+    background: url("../img/logo/background.jpg");
+    padding: 50px;
+    width: 100%;
+}
+.icon{
+    text-align: center;
+    padding: 15px 0px;
+}
+.icon a{
+    color: black;
+    background: #ffffff;
+    border-radius: 50%;
+}
+.icon a i{
+    padding: 10px 10px;
+    line-height: 10px;
+}
+.manu-area{
+    display: flex;
+    background: #ffebcd;
+    width: 86%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    display: flex;
+}
+.manu{
+    width: 70%;
+}
+.manu ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.manu ul li {
+    padding: 15px 15px;
+}
+.logo a img {
+    height: 45px;
+}
+.logo h2 {
+    padding: 11px 12px;
+}
+
+.container{
+    text-align: center;
+}
+.container h2 {
+    padding-top: 180px;
+    color: white;
+}
+.container hr{
+    width: 30%;
+    margin: 0 auto;
+}
+.container p{
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 0;
+}
+.container a{
+    text-align: center;
+}
+.container a {
+    background: #EE5341;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 16px 0;
+
+}
+ /* Our service Section  */
+
+ .services-section{
+     text-align: center;
+     padding-top: 20px;
+ }
+ .services-section hr{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.row-a{
+    width: 275px;
+    padding: 100px;
+    background:chartreuse;
+}
+.row-b{
+    width: 275px;
+    padding: 100px;
+    background:rgb(27, 202, 255);
+}
+
+.row-c{
+    width: 275px;
+    padding: 100px;
+    background:rgb(76, 43, 224);
+}
+
+.row-d{
+    width: 275px;
+    padding: 100px;
+    background:rgb(224, 66, 26);
+}
+
+
+
+/* Our Protfolio Section */
+
+.portfolio-section{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.portfolio-section hr {
+    width: 30%;
+    height: 2px;
+    margin: 0 auto;
+    background: black;
+}
+
+.row-a{
+    background: url(../img/logo/background.jpg);
+    background-size: cover;
+}
